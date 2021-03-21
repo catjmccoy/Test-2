@@ -1,0 +1,745 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4940B3F11DC10C4700084419 /* ToneAnalyzerV3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4940B3F01DC10C4700084419 /* ToneAnalyzerV3.framework */; };
+		4940B3F31DC10C5000084419 /* ToneAnalyzerV3.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4940B3F01DC10C4700084419 /* ToneAnalyzerV3.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		49D1A33B1DBE603900D2A7D0 /* ToneCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D1A33A1DBE603900D2A7D0 /* ToneCategory.swift */; };
+		49D1A33D1DBE710100D2A7D0 /* TagCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D1A33C1DBE710100D2A7D0 /* TagCollectionViewCell.swift */; };
+		49D1A33F1DBE710900D2A7D0 /* TagCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49D1A33E1DBE710900D2A7D0 /* TagCollectionViewCell.xib */; };
+		555C91AC1D0F0731003E84E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555C91AB1D0F0731003E84E3 /* AppDelegate.swift */; };
+		555C91AE1D0F0731003E84E3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555C91AD1D0F0731003E84E3 /* ViewController.swift */; };
+		555C91B11D0F0731003E84E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 555C91AF1D0F0731003E84E3 /* Main.storyboard */; };
+		555C91B31D0F0731003E84E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 555C91B21D0F0731003E84E3 /* Assets.xcassets */; };
+		555C91C11D0F0731003E84E3 /* toneanalyzeriosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555C91C01D0F0731003E84E3 /* toneanalyzeriosTests.swift */; };
+		555C91CC1D0F0731003E84E3 /* toneanalyzeriosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555C91CB1D0F0731003E84E3 /* toneanalyzeriosUITests.swift */; };
+		6EF4C41DC1864171ABD29E06 /* BMSCredentials.plist in Resources */ = {isa = PBXBuildFile; fileRef = E93C8179572349E4B03502C3 /* BMSCredentials.plist */; };
+		A3528A5681DB94BEDBF337E4 /* Pods_iostoneanalyzerappUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3FB24885A3D13447C399F3F /* Pods_iostoneanalyzerappUITests.framework */; };
+		B91EB15153F21DC4BEA8B5AB /* Pods_iostoneanalyzerapp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9AC302C45D93AE442C88325 /* Pods_iostoneanalyzerapp.framework */; };
+		E3F7DD46202BAF5400F857C3 /* AnalyzerError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F7DD45202BAF5400F857C3 /* AnalyzerError.swift */; };
+		F7B1456C0A6CC741EA810AC7 /* Pods_iostoneanalyzerappTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E94DFF87E6E25EA2B5EFB022 /* Pods_iostoneanalyzerappTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		555C91BD1D0F0731003E84E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 555C91A01D0F0731003E84E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 555C91A71D0F0731003E84E3;
+			remoteInfo = toneanalyzerios;
+		};
+		555C91C81D0F0731003E84E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 555C91A01D0F0731003E84E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 555C91A71D0F0731003E84E3;
+			remoteInfo = toneanalyzerios;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		49E15BA51D902274005C4B9E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				4940B3F31DC10C5000084419 /* ToneAnalyzerV3.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		49171A5080EFFF42C1DF8961 /* Pods-toneanalyzerios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-toneanalyzerios.release.xcconfig"; path = "Target Support Files/Pods-toneanalyzerios/Pods-toneanalyzerios.release.xcconfig"; sourceTree = "<group>"; };
+		4940B3F01DC10C4700084419 /* ToneAnalyzerV3.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ToneAnalyzerV3.framework; path = Carthage/Build/iOS/ToneAnalyzerV3.framework; sourceTree = "<group>"; };
+		49D1A33A1DBE603900D2A7D0 /* ToneCategory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToneCategory.swift; sourceTree = "<group>"; };
+		49D1A33C1DBE710100D2A7D0 /* TagCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagCollectionViewCell.swift; sourceTree = "<group>"; };
+		49D1A33E1DBE710900D2A7D0 /* TagCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TagCollectionViewCell.xib; sourceTree = "<group>"; };
+		49E15BAF1D9023E7005C4B9E /* RestKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RestKit.framework; path = Carthage/Build/iOS/RestKit.framework; sourceTree = "<group>"; };
+		4AEFB8CA9BA9A8D663A55C83 /* Pods-iostoneanalyzerapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iostoneanalyzerapp.release.xcconfig"; path = "Target Support Files/Pods-iostoneanalyzerapp/Pods-iostoneanalyzerapp.release.xcconfig"; sourceTree = "<group>"; };
+		555C91A81D0F0731003E84E3 /* iostoneanalyzerapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iostoneanalyzerapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		555C91AB1D0F0731003E84E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		555C91AD1D0F0731003E84E3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		555C91B01D0F0731003E84E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		555C91B21D0F0731003E84E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		555C91B71D0F0731003E84E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		555C91BC1D0F0731003E84E3 /* iostoneanalyzerappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iostoneanalyzerappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		555C91C01D0F0731003E84E3 /* toneanalyzeriosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = toneanalyzeriosTests.swift; sourceTree = "<group>"; };
+		555C91C21D0F0731003E84E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		555C91C71D0F0731003E84E3 /* iostoneanalyzerappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iostoneanalyzerappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		555C91CB1D0F0731003E84E3 /* toneanalyzeriosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = toneanalyzeriosUITests.swift; sourceTree = "<group>"; };
+		555C91CD1D0F0731003E84E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57E562EFDAE07D53B98EBE14 /* Pods-toneanalyzeriosUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-toneanalyzeriosUITests.debug.xcconfig"; path = "Target Support Files/Pods-toneanalyzeriosUITests/Pods-toneanalyzeriosUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6318FE42ABAB9E732D1CC13F /* Pods-iostoneanalyzerappUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iostoneanalyzerappUITests.release.xcconfig"; path = "Target Support Files/Pods-iostoneanalyzerappUITests/Pods-iostoneanalyzerappUITests.release.xcconfig"; sourceTree = "<group>"; };
+		739A4C25C90482804F089D33 /* Pods-iostoneanalyzerappTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iostoneanalyzerappTests.release.xcconfig"; path = "Target Support Files/Pods-iostoneanalyzerappTests/Pods-iostoneanalyzerappTests.release.xcconfig"; sourceTree = "<group>"; };
+		73BD8F69E8CFADC527E502A5 /* Pods-iostoneanalyzerappUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iostoneanalyzerappUITests.debug.xcconfig"; path = "Target Support Files/Pods-iostoneanalyzerappUITests/Pods-iostoneanalyzerappUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		86707949C628237734738064 /* Pods-iostoneanalyzerappTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iostoneanalyzerappTests.debug.xcconfig"; path = "Target Support Files/Pods-iostoneanalyzerappTests/Pods-iostoneanalyzerappTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9779FE378A1D1328052E17D8 /* Pods-toneanalyzerios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-toneanalyzerios.debug.xcconfig"; path = "Target Support Files/Pods-toneanalyzerios/Pods-toneanalyzerios.debug.xcconfig"; sourceTree = "<group>"; };
+		ACF0E1A4279A4BB38B97E337 /* Pods-toneanalyzeriosTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-toneanalyzeriosTests.release.xcconfig"; path = "Target Support Files/Pods-toneanalyzeriosTests/Pods-toneanalyzeriosTests.release.xcconfig"; sourceTree = "<group>"; };
+		B9D24B8CB3C488252BE1252C /* Pods-toneanalyzeriosUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-toneanalyzeriosUITests.release.xcconfig"; path = "Target Support Files/Pods-toneanalyzeriosUITests/Pods-toneanalyzeriosUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C11AD7380ABF8359CB07321E /* Pods-toneanalyzeriosTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-toneanalyzeriosTests.debug.xcconfig"; path = "Target Support Files/Pods-toneanalyzeriosTests/Pods-toneanalyzeriosTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D3638CCBDBAD651316F68F1F /* Pods-iostoneanalyzerapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iostoneanalyzerapp.debug.xcconfig"; path = "Target Support Files/Pods-iostoneanalyzerapp/Pods-iostoneanalyzerapp.debug.xcconfig"; sourceTree = "<group>"; };
+		E3F7DD45202BAF5400F857C3 /* AnalyzerError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyzerError.swift; sourceTree = "<group>"; };
+		E3FB24885A3D13447C399F3F /* Pods_iostoneanalyzerappUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iostoneanalyzerappUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E93C8179572349E4B03502C3 /* BMSCredentials.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = BMSCredentials.plist; sourceTree = "<group>"; };
+		E94DFF87E6E25EA2B5EFB022 /* Pods_iostoneanalyzerappTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iostoneanalyzerappTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9AC302C45D93AE442C88325 /* Pods_iostoneanalyzerapp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iostoneanalyzerapp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		555C91A51D0F0731003E84E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4940B3F11DC10C4700084419 /* ToneAnalyzerV3.framework in Frameworks */,
+				B91EB15153F21DC4BEA8B5AB /* Pods_iostoneanalyzerapp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		555C91B91D0F0731003E84E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7B1456C0A6CC741EA810AC7 /* Pods_iostoneanalyzerappTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		555C91C41D0F0731003E84E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3528A5681DB94BEDBF337E4 /* Pods_iostoneanalyzerappUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B17B012FD50B0CB5A077FDE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9779FE378A1D1328052E17D8 /* Pods-toneanalyzerios.debug.xcconfig */,
+				49171A5080EFFF42C1DF8961 /* Pods-toneanalyzerios.release.xcconfig */,
+				C11AD7380ABF8359CB07321E /* Pods-toneanalyzeriosTests.debug.xcconfig */,
+				ACF0E1A4279A4BB38B97E337 /* Pods-toneanalyzeriosTests.release.xcconfig */,
+				57E562EFDAE07D53B98EBE14 /* Pods-toneanalyzeriosUITests.debug.xcconfig */,
+				B9D24B8CB3C488252BE1252C /* Pods-toneanalyzeriosUITests.release.xcconfig */,
+				D3638CCBDBAD651316F68F1F /* Pods-iostoneanalyzerapp.debug.xcconfig */,
+				4AEFB8CA9BA9A8D663A55C83 /* Pods-iostoneanalyzerapp.release.xcconfig */,
+				86707949C628237734738064 /* Pods-iostoneanalyzerappTests.debug.xcconfig */,
+				739A4C25C90482804F089D33 /* Pods-iostoneanalyzerappTests.release.xcconfig */,
+				73BD8F69E8CFADC527E502A5 /* Pods-iostoneanalyzerappUITests.debug.xcconfig */,
+				6318FE42ABAB9E732D1CC13F /* Pods-iostoneanalyzerappUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		545C9DD4D3D79A706E9BC9CE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4940B3F01DC10C4700084419 /* ToneAnalyzerV3.framework */,
+				49E15BAF1D9023E7005C4B9E /* RestKit.framework */,
+				E9AC302C45D93AE442C88325 /* Pods_iostoneanalyzerapp.framework */,
+				E94DFF87E6E25EA2B5EFB022 /* Pods_iostoneanalyzerappTests.framework */,
+				E3FB24885A3D13447C399F3F /* Pods_iostoneanalyzerappUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		555C919F1D0F0731003E84E3 = {
+			isa = PBXGroup;
+			children = (
+				555C91AA1D0F0731003E84E3 /* iosapp */,
+				555C91BF1D0F0731003E84E3 /* iosappTests */,
+				555C91CA1D0F0731003E84E3 /* iosappUITests */,
+				555C91A91D0F0731003E84E3 /* Products */,
+				545C9DD4D3D79A706E9BC9CE /* Frameworks */,
+				2B17B012FD50B0CB5A077FDE /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		555C91A91D0F0731003E84E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				555C91A81D0F0731003E84E3 /* iostoneanalyzerapp.app */,
+				555C91BC1D0F0731003E84E3 /* iostoneanalyzerappTests.xctest */,
+				555C91C71D0F0731003E84E3 /* iostoneanalyzerappUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		555C91AA1D0F0731003E84E3 /* iosapp */ = {
+			isa = PBXGroup;
+			children = (
+				E93C8179572349E4B03502C3 /* BMSCredentials.plist */,
+				555C91AB1D0F0731003E84E3 /* AppDelegate.swift */,
+				49D1A33C1DBE710100D2A7D0 /* TagCollectionViewCell.swift */,
+				49D1A33E1DBE710900D2A7D0 /* TagCollectionViewCell.xib */,
+				555C91AD1D0F0731003E84E3 /* ViewController.swift */,
+				555C91AF1D0F0731003E84E3 /* Main.storyboard */,
+				555C91B21D0F0731003E84E3 /* Assets.xcassets */,
+				49D1A33A1DBE603900D2A7D0 /* ToneCategory.swift */,
+				555C91B71D0F0731003E84E3 /* Info.plist */,
+				E3F7DD45202BAF5400F857C3 /* AnalyzerError.swift */,
+			);
+			path = iosapp;
+			sourceTree = "<group>";
+		};
+		555C91BF1D0F0731003E84E3 /* iosappTests */ = {
+			isa = PBXGroup;
+			children = (
+				555C91C01D0F0731003E84E3 /* toneanalyzeriosTests.swift */,
+				555C91C21D0F0731003E84E3 /* Info.plist */,
+			);
+			path = iosappTests;
+			sourceTree = "<group>";
+		};
+		555C91CA1D0F0731003E84E3 /* iosappUITests */ = {
+			isa = PBXGroup;
+			children = (
+				555C91CB1D0F0731003E84E3 /* toneanalyzeriosUITests.swift */,
+				555C91CD1D0F0731003E84E3 /* Info.plist */,
+			);
+			path = iosappUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		555C91A71D0F0731003E84E3 /* iostoneanalyzerapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 555C91D01D0F0731003E84E3 /* Build configuration list for PBXNativeTarget "iostoneanalyzerapp" */;
+			buildPhases = (
+				452E51B17AF70BA30939F16D /* [CP] Check Pods Manifest.lock */,
+				555C91A41D0F0731003E84E3 /* Sources */,
+				555C91A51D0F0731003E84E3 /* Frameworks */,
+				555C91A61D0F0731003E84E3 /* Resources */,
+				49E15BA51D902274005C4B9E /* Embed Frameworks */,
+				0C81F8285148865C0E8D280C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iostoneanalyzerapp;
+			productName = toneanalyzerios;
+			productReference = 555C91A81D0F0731003E84E3 /* iostoneanalyzerapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		555C91BB1D0F0731003E84E3 /* iostoneanalyzerappTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 555C91D31D0F0731003E84E3 /* Build configuration list for PBXNativeTarget "iostoneanalyzerappTests" */;
+			buildPhases = (
+				797C0899103444B25385A8AB /* [CP] Check Pods Manifest.lock */,
+				555C91B81D0F0731003E84E3 /* Sources */,
+				555C91B91D0F0731003E84E3 /* Frameworks */,
+				555C91BA1D0F0731003E84E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				555C91BE1D0F0731003E84E3 /* PBXTargetDependency */,
+			);
+			name = iostoneanalyzerappTests;
+			productName = toneanalyzeriosTests;
+			productReference = 555C91BC1D0F0731003E84E3 /* iostoneanalyzerappTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		555C91C61D0F0731003E84E3 /* iostoneanalyzerappUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 555C91D61D0F0731003E84E3 /* Build configuration list for PBXNativeTarget "iostoneanalyzerappUITests" */;
+			buildPhases = (
+				65039B1CF49E633042FBBB16 /* [CP] Check Pods Manifest.lock */,
+				555C91C31D0F0731003E84E3 /* Sources */,
+				555C91C41D0F0731003E84E3 /* Frameworks */,
+				555C91C51D0F0731003E84E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				555C91C91D0F0731003E84E3 /* PBXTargetDependency */,
+			);
+			name = iostoneanalyzerappUITests;
+			productName = toneanalyzeriosUITests;
+			productReference = 555C91C71D0F0731003E84E3 /* iostoneanalyzerappUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		555C91A01D0F0731003E84E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = IBM;
+				TargetAttributes = {
+					555C91A71D0F0731003E84E3 = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 1110;
+					};
+					555C91BB1D0F0731003E84E3 = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 1110;
+						TestTargetID = 555C91A71D0F0731003E84E3;
+					};
+					555C91C61D0F0731003E84E3 = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 1110;
+						TestTargetID = 555C91A71D0F0731003E84E3;
+					};
+				};
+			};
+			buildConfigurationList = 555C91A31D0F0731003E84E3 /* Build configuration list for PBXProject "iostoneanalyzerapp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 555C919F1D0F0731003E84E3;
+			productRefGroup = 555C91A91D0F0731003E84E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				555C91A71D0F0731003E84E3 /* iostoneanalyzerapp */,
+				555C91BB1D0F0731003E84E3 /* iostoneanalyzerappTests */,
+				555C91C61D0F0731003E84E3 /* iostoneanalyzerappUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		555C91A61D0F0731003E84E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EF4C41DC1864171ABD29E06 /* BMSCredentials.plist in Resources */,
+				49D1A33F1DBE710900D2A7D0 /* TagCollectionViewCell.xib in Resources */,
+				555C91B31D0F0731003E84E3 /* Assets.xcassets in Resources */,
+				555C91B11D0F0731003E84E3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		555C91BA1D0F0731003E84E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		555C91C51D0F0731003E84E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0C81F8285148865C0E8D280C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iostoneanalyzerapp/Pods-iostoneanalyzerapp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BMSAnalyticsAPI/BMSAnalyticsAPI.framework",
+				"${BUILT_PRODUCTS_DIR}/BMSCore/BMSCore.framework",
+				"${BUILT_PRODUCTS_DIR}/IBMSwiftSDKCore/IBMSwiftSDKCore.framework",
+				"${BUILT_PRODUCTS_DIR}/IBMWatsonToneAnalyzerV3/ToneAnalyzer.framework",
+				"${BUILT_PRODUCTS_DIR}/KTCenterFlowLayout/KTCenterFlowLayout.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftSpinner/SwiftSpinner.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BMSAnalyticsAPI.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BMSCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IBMSwiftSDKCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ToneAnalyzer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KTCenterFlowLayout.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftSpinner.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iostoneanalyzerapp/Pods-iostoneanalyzerapp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		452E51B17AF70BA30939F16D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iostoneanalyzerapp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		65039B1CF49E633042FBBB16 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iostoneanalyzerappUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		797C0899103444B25385A8AB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iostoneanalyzerappTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		555C91A41D0F0731003E84E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				555C91AE1D0F0731003E84E3 /* ViewController.swift in Sources */,
+				49D1A33D1DBE710100D2A7D0 /* TagCollectionViewCell.swift in Sources */,
+				49D1A33B1DBE603900D2A7D0 /* ToneCategory.swift in Sources */,
+				E3F7DD46202BAF5400F857C3 /* AnalyzerError.swift in Sources */,
+				555C91AC1D0F0731003E84E3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		555C91B81D0F0731003E84E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				555C91C11D0F0731003E84E3 /* toneanalyzeriosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		555C91C31D0F0731003E84E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				555C91CC1D0F0731003E84E3 /* toneanalyzeriosUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		555C91BE1D0F0731003E84E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 555C91A71D0F0731003E84E3 /* iostoneanalyzerapp */;
+			targetProxy = 555C91BD1D0F0731003E84E3 /* PBXContainerItemProxy */;
+		};
+		555C91C91D0F0731003E84E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 555C91A71D0F0731003E84E3 /* iostoneanalyzerapp */;
+			targetProxy = 555C91C81D0F0731003E84E3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		555C91AF1D0F0731003E84E3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				555C91B01D0F0731003E84E3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		555C91CE1D0F0731003E84E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		555C91CF1D0F0731003E84E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		555C91D11D0F0731003E84E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3638CCBDBAD651316F68F1F /* Pods-iostoneanalyzerapp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = iosapp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.iostoneanalyzerapp;
+				PRODUCT_NAME = iostoneanalyzerapp;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		555C91D21D0F0731003E84E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AEFB8CA9BA9A8D663A55C83 /* Pods-iostoneanalyzerapp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = iosapp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.iostoneanalyzerapp;
+				PRODUCT_NAME = iostoneanalyzerapp;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		555C91D41D0F0731003E84E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86707949C628237734738064 /* Pods-iostoneanalyzerappTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = iosappTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.iostoneanalyzerappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iostoneanalyzerapp.app/iostoneanalyzerapp";
+			};
+			name = Debug;
+		};
+		555C91D51D0F0731003E84E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 739A4C25C90482804F089D33 /* Pods-iostoneanalyzerappTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = iosappTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.iostoneanalyzerappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iostoneanalyzerapp.app/iostoneanalyzerapp";
+			};
+			name = Release;
+		};
+		555C91D71D0F0731003E84E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73BD8F69E8CFADC527E502A5 /* Pods-iostoneanalyzerappUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = iosappUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.iostoneanalyzerappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = toneanalyzerios;
+			};
+			name = Debug;
+		};
+		555C91D81D0F0731003E84E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6318FE42ABAB9E732D1CC13F /* Pods-iostoneanalyzerappUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = iosappUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.iostoneanalyzerappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = toneanalyzerios;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		555C91A31D0F0731003E84E3 /* Build configuration list for PBXProject "iostoneanalyzerapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				555C91CE1D0F0731003E84E3 /* Debug */,
+				555C91CF1D0F0731003E84E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		555C91D01D0F0731003E84E3 /* Build configuration list for PBXNativeTarget "iostoneanalyzerapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				555C91D11D0F0731003E84E3 /* Debug */,
+				555C91D21D0F0731003E84E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		555C91D31D0F0731003E84E3 /* Build configuration list for PBXNativeTarget "iostoneanalyzerappTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				555C91D41D0F0731003E84E3 /* Debug */,
+				555C91D51D0F0731003E84E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		555C91D61D0F0731003E84E3 /* Build configuration list for PBXNativeTarget "iostoneanalyzerappUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				555C91D71D0F0731003E84E3 /* Debug */,
+				555C91D81D0F0731003E84E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 555C91A01D0F0731003E84E3 /* Project object */;
+}
